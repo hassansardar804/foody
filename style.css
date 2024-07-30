@@ -1,0 +1,152 @@
+body{
+    @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+}
+
+    /* nav bar */
+  
+    .text-primary {
+        color: #3CB815 !important;
+
+    }
+    .text-secondary{
+        color: #f65005 !important;
+    }
+    
+
+/* head */
+
+.head{
+    background-image: url(/gallery/fruit.jpg);
+    height: 800px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: rgb(136, 136, 177);   
+} 
+
+
+.head-img > img{
+    height: 600px;
+    margin-top: -60px;
+    margin-left: -400px;
+    display: none;
+}
+.head-text > h1{
+    margin-top: 80px;
+    font-family: "PT Serif", serif;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 80px;
+}
+
+.green-btn{
+    
+    background-color: #3cb815;
+    border: none;
+    color: white;
+}
+.orange-btn{
+   
+    background-color: #f65005;
+    border: none;
+    color: white;
+}
+
+
+
+/* about */
+
+.about{
+    padding: 150px 0px;
+
+}
+.h-two{
+    font-family: "PT Serif", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 50px;
+}
+
+/* feather */
+.feathers{
+background-image: url(/gallery/bg-icon.png);
+background-color: #f7f8fc;
+}
+.feathers-main{
+    padding: 100px 0px;
+}
+.line{
+    margin: 0 auto;
+
+}
+.green-line{
+    border-bottom: 2px solid #3cb815;
+    width: 55px;
+    margin-bottom: 10px;
+    
+
+}
+
+.orange-line{
+    border-bottom: 2px solid orangered;
+    width: 90px;
+    margin-bottom: 10px;
+}
+
+.tittle{
+    font-family: "PT Serif", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 50px;
+}
+ .tittle-one{
+    font-family: "PT Serif", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+ }
+
+ /* products */
+ .space{
+    margin-top: 16px;
+ }
+.main-products{
+    background-color: rgb(255, 255, 255);
+}
+
+/* visit */
+.visit{
+    background-image: url(/gallery/bg-icon.png);
+    background-color: #3cb815 ;
+}
+.visit-btn{
+   background-color: orangered;
+  margin-left: 18rem;
+  margin-top: 45px;
+  color: white;
+  padding-left: 44px;
+  padding-right: 44px;
+  font-size: 23px;
+  padding-top: 5px;
+  border: 0;
+  padding-bottom: 3px;
+}
+
+/* custumer reviews */
+lines{
+    margin-bottom: 55px;
+}
+.review{
+    background-image: url(./gallery/bg-icon.png);
+
+}
+.green-card{
+    background-color: #3cb815;
+    color: white;
+}
+/* footer */
+.placeholder{
+    z-index: 1;
+}
+.green-btn-one{
+    background-color: #3bb815;
+}
